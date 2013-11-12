@@ -1,0 +1,77 @@
+#header-bar {
+    height: 40px; width: 100%; z-index: 100;
+    background: #003cc6; position: fixed; border-bottom: #002c93 2px solid;
+}
+
+#header-nav {
+    margin: 0 auto; width: 900px; color: #eee;
+    padding: 4px; line-height: 32px; font-size: 12px;
+    position: relative;
+}
+    #header-nav #left-box { width: 200px; }
+    #header-nav #title { font-weight: bold; font-size: 16px}
+    /*#header-nav #search-box { left: 205px; position: absolute; top: 0; }*/
+    #header-nav #search-box { margin-left: 1px; float: left; }
+    #header-nav #search-box input { margin-right: 10px; width: 200px; padding: 2px; }
+    #header-nav a { color: inherit; margin-left: 10px; }
+    #header-nav #notification-button { margin-left: 20px;}
+    /*#header-nav #account-button { position: absolute; right: 60px; }
+    #header-nav #logout { position: absolute; right: 10px; }*/
+
+#wrapper {
+    margin: 0 auto; padding-top: 40px; 
+    background: #eee; border: 2px solid #aaa;
+    border-top: none;
+    width: 900px;
+}
+
+#left-col {
+    margin-left: 20px;
+    float: left; width: 180px; display: block;
+}
+
+#content-col {
+    margin: 0 20px 0 200px; border-left: #aaa 1px solid;
+    width: 680px; padding: 10px; 
+}
+
+#footer {
+    background: #aaa; height: 24px; padding: 2px; line-height: 24px;
+    color: #fff; text-align: center;
+}
+    #footer span { font-size: 12px; }
+
+
+/* Nav */
+#left-col div.nav-section { margin: 20px 0; }
+#person-nav a { color: #000; font-weight: bold; }
+#person-nav a:hover { text-decoration: underline; }
+.nav-section ul, li { list-style: none; }
+.nav-section h6 { font-variant: small-caps; font-size: 13px; color: #6e6e6e; font-weight: bold; }
+.nav-section a { color: #000; }
+.nav-section a.nav-click {
+    display: block; font-size: 13px; line-height: 15px;
+    text-decoration: none; color: inherit; padding: 4px 8px; vertical-align: middle;
+}
+.nav-section a.nav-click:hover { background: #d0d7d9; }
+.nav-section a.nav-click.selected { background: #c5e6bf; }
+.nav-section span.unread {
+    display: block; float: right; background: #c5e6bf;
+    color: #37b40e; font-weight: bold; font-size: 10px;
+    padding: 0px 4px; border-radius: 3px; 
+}
+.nav-section a.admin-button {
+    width: 10px; line-height: 15px; display: block; padding: 0 2px;
+    margin-left: -17px; margin-top: 5px;
+    color: #37b40e; float: left;
+    text-decoration: none; font-size: 11px; font-weight: bold;
+}
+.nav-section a.admin-button:after { content: "A"; }
+.nav-section a.admin-button:hover { background: #37b40e; color: #eee; }
+
+#person-nav { height: 50px; }
+#person-nav span {
+    font-size: 12px; margin-top: 10px;
+    width: 120px; display: block; float: left;
+}
+#person-nav img { width: 50px; height: 50px; float: left; margin-right: 10px; }

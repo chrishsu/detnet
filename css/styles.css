@@ -1,0 +1,31 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans);*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(opensans.woff) format('woff');
+}
+
+/* reset css */
+* { padding: 0; margin: 0; border: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* defaults */
+.left { float: left; }
+.right { float: right; }
+.hidden { display: none; }
+.inline { display: inline; }
+
+/* clearfix hack from http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+html {
+    background: #242424;
+    font-family: Open Sans, Tahoma, sans-serif;
+    height: 100%;
+}

@@ -1,0 +1,75 @@
+
+/* Register Styles */
+#register div#wrapper {
+    margin: 0 auto; margin-top: 10%;
+    width: 700px; height: 300px;
+    background: #d0d7d9; padding: 20px;/*f4f3f0*/
+    border: 3px solid #1b1b1b;
+}
+
+#register div#wrapper { padding: 0; width: 740px; height: 340px; }
+#register h1 { font-size: 16px; background: #0046ea; color: #eee; padding: 10px 20px; border: 1px solid #003cc6; }
+#register h2 { font-size: 24px; margin: 0px 0 10px; }
+#register #create-account { padding: 20px; }
+
+#register form div.create-box { display: none; height: 230px; }
+/* #register form div.create-box:nth-of-type(3) { display: block; } */
+#register form label { display: block; font-size: 16px; width: 150px; float: left; height: 16px; padding: 14px 10px 0 0; text-align: right; }
+#register form label.error {
+    margin: 0px 0 0 10px; font-size: 12px; width: 253px;
+    background: #ff8000; border: 1px solid #d26900; color: #fff;
+    vertical-align: middle; height: auto;
+    float: none; display: inline-block;
+    text-align: left; padding: 5px;
+}
+#register form label.error.hidden { display: none; }
+#register form .error.textarea-fix {
+}
+#register form input[type='text'],
+#register form input[type='email'],
+#register form input[type='password'],
+#register form input[type='date'] {
+    width: 250px; height: 26px; line-height: 20px;
+    font-size: 14px; padding: 2px 5px;
+    margin: 5px 0 0px;
+    border: 1px #aaa solid;
+}
+#register form .select-group {
+    width: 262px; display: inline-block; font-size: 14px;
+    padding: 0px 0px; line-height: 26px; margin: 5px 0 0;
+}
+#register form .radio-group {
+    width: 250px; height: 26px; display: inline-block; font-size: 14px;
+    padding: 4px 6px; line-height: 26px; margin: 5px 0 0; 
+}
+    #register form .radio-group input { margin: 0 3px; }
+    #register form .radio-group label { float: none; width: auto; display: inline; font-size: inherit; }
+#register form textarea {
+    width: 250px; resize: none; padding: 5px; margin: 5px 0 0;
+    font-size: 12px; line-height: 14px; height: 42px; font-family: inherit;
+    border: 1px #aaa solid; display: inline;
+}
+#register form select {
+    width: 120px; padding: 0; font-size: 14px; border: 1px solid #ccc;
+    height: 30px; background: #fff; line-height: 20px;
+}
+#register form select option { line-height: 26px; }
+
+#register form button {
+    width: 100px; height: 30px; display: block; background: #37b40e;
+    border: 1px solid #247709; cursor: pointer; font-size: 12px;
+    border-radius: 5px; font-family: inherit;
+}
+#register form button.hidden { display: none; }
+#register form button:hover {
+    width: 100px; height: 30px; display: block; background: #3ec510;
+    border: 1px solid #247709;
+}
+#register form button:active {
+    background: #3ec510;
+    border: 2px solid #1e5f07;
+}
+#register #recaptcha_box { width: 100%; text-align: center; margin: 10px 0 0 0; }
+#register #recaptcha_area { margin: auto; width: 450px; }
+#register #recaptcha_box label.error { margin: 10px 0 0 0; width: 306px; }
+#register #recaptcha_table { background: #fff; }

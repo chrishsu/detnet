@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DetNet Layout</title>
+    <link href="css/nav-styles.css" type="text/css" rel="stylesheet" media="screen">
+    <!--<link href="small-styles.css" type="text/css" rel="stylesheet" media="screen and (max-width: 799px)">-->
+</head>
+<body>
+<div id="header-bar">
+    <div id="header-nav">
+        <div class="left" id="left-box">
+            <span id="title">DetNet</span>
+            <a href="#" id="notification-button">Notifications</a>
+        </div>
+        <div id="search-box"><form method="post">
+            <input type="text" name="search" id="search-bar" autocomplete="off"><label for="search-bar">Search</label>
+        </form></div>
+        <div class="right">
+        <a href="#" id="account-button">Account</a>
+        <a href="#" id="logout">Logout</a>
+        </div>
+    </div>
+</div>
+<div id="wrapper">
+    <div id="left-col">
+        <div id="person-nav" class="nav-section">
+            <img src="http://placehold.it/50x50">
+            <span>FirstName LastName</span>
+        </div>
+        <div id="main-nav" class="nav-section">
+            <ul>
+                <li>
+                    <a class="admin-button" id="admin-home-button" href="#"></a>
+                    <a class="nav-click selected" href="#">Home</a>
+                </li>
+                <li><a class="nav-click" href="#">Events<span class="unread">3</span></a></li>
+                <li><a class="nav-click" href="#">Members</a></li>
+                <li><a class="nav-click" href="#">Plugins</a></li>
+                <li><a class="nav-click" href="#">Admin</a></li>
+            </ul>
+        </div>
+        <div id="group-nav" class="nav-section">
+            <h6>Groups</h6>
+            <ul>
+                <li><a class="nav-click" href="#">Group A</a></li>
+                <li><a class="nav-click" href="#">Group B</a></li>
+                <li><a class="nav-click" href="#">Group C</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content-col" class="clearfix">
+    </div>
+    <div id="footer" class="clearfix">
+        <span>&copy; 2013 Det 730</span>
+    </div>
+</div>
+</body>
+</html>

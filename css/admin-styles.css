@@ -1,0 +1,55 @@
+p.code { font-family: Courier New, serif; white-space: pre; font-size: 12px; }
+
+.admin-box { margin: 10px 0; }
+
+.admin-box .search-box {
+    position: relative;
+}
+.admin-box .search-results {
+    position: absolute;
+    width: 260px;  
+    background: #fff;
+    border: 1px #ccc solid; border-top: none;
+    display: none; font-size: 14px;
+    z-index: 1;
+}
+.admin-box .search-results a {
+    display: block; padding: 2px; 
+    color: #000;
+}
+.admin-box .search-results a:hover {
+    text-decoration: none; background: #ffc082;
+}
+
+.admin-box form label { display: inline-block; font-size: 16px; width: auto; height: 32px; line-height: 32px; padding: 0px 20px 0 0; }
+.admin-box input.title { 
+    width: 250px; height: 26px; line-height: 20px;
+    font-size: 14px; padding: 2px 5px;
+    margin: 0px 0 0px;
+    border: 1px #aaa solid;
+}
+.admin-box textarea.text { 
+    border: 1px #aaa solid;
+    width: 500px; resize: none;
+    line-height: 20px; font-size: 12px;
+    min-height: 60px;
+}
+
+.admin-box button {
+    width: 100px; height: 30px; display: inline-block; background: #37b40e;
+    border: 1px solid #247709; cursor: pointer; font-size: 12px;
+    border-radius: 5px; font-family: inherit;
+}
+.admin-box button.hidden { display: none; }
+.admin-box button:hover {
+    width: 100px; height: 30px;  background: #3ec510;
+    border: 1px solid #247709;
+}
+.admin-box button:active {
+    background: #3ec510;
+    border: 2px solid #1e5f07; 
+}
+
+.admin-box div.buttons { margin: 10px 0; }
+.admin-box button.right { margin-left: 10px; }
+.admin-box form .row { margin: 10px 0; }

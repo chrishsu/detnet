@@ -1,0 +1,60 @@
+
+#login div#wrapper {
+    margin: 0 auto; margin-top: 10%;
+    width: 700px; height: 300px;
+    background: #d0d7d9; padding: 20px;/*f4f3f0*/
+    border: 3px solid #1b1b1b;
+}
+
+#login div#left {
+    margin: 0 0 0 -20px;
+    display: block; width: 420px; height: 300px;
+    text-align: center;
+}
+
+    #login #left h1 { padding-top: 10px; margin: 0; font-size: 32px; }
+    #login #left p { margin: 16px 0; font-size: 16px; }
+
+#login div#right {
+    margin: -300px 0px 0px 400px; 
+    display: block; width: 258px; height: 258px;
+    background: #0046ea; color: #eee;
+    padding: 20px; border: 1px solid #003cc6;
+    position: relative;
+}
+    
+    #login #right label {
+        display: block; font-size: 20px;
+    }
+    #login #right label#remember-label {
+        display: inline; font-size: 12px; 
+    }
+    #login #right input[type='text'], #login #right input[type='password'] {
+        width: 244px; height: 26px; line-height: 20px;
+        font-size: 20px; padding: 2px 5px;
+        margin: 5px 0 20px;
+    }
+    #login #right input[type='submit'] {
+        margin: -25px 0 0 157px;
+        width: 100px; height: 30px; display: block; background: #37b40e;
+        border: 1px solid #247709; cursor: pointer;
+        border-radius: 5px; font-family: inherit;
+    }
+    #login #right input[type='submit']:hover {
+        width: 100px; height: 30px; display: block; background: #3ec510;
+        border: 1px solid #247709;
+    }
+    #login #right input[type='submit']:active {
+        background: #3ec510;
+        border: 2px solid #1e5f07;
+    }
+    
+    #login #right a { color: #eee; text-decoration: none; }
+    #login #right a:hover { text-decoration: underline; }
+    #login #right p { margin: 12px 0; }
+    
+    p.error { background: #ff8000; border: 1px solid #d26900; width: 244px; text-align: center; color: #fff; padding: 5px; }
+    
+    .bottom { position: absolute; bottom: 0px; }
+    
+    .small { font-size: 12px; }
